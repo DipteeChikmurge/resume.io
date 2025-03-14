@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diptee Ghusse - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Diptee Ghusse</h1>
+        <p>HoD, CSE-AIML | MIT Academy of Engineering, Pune</p>
+
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab(event, 'about')">About</button>
+            <button class="tab-button" onclick="openTab(event, 'research')">Research</button>
+            <button class="tab-button" onclick="openTab(event, 'projects')">Projects</button>
+            <button class="tab-button" onclick="openTab(event, 'skills')">Skills</button>
+            <button class="tab-button" onclick="openTab(event, 'roles')">Academic Roles</button>
+            <button class="tab-button" onclick="openTab(event, 'publications')">Publications</button>
+        </div>
+
+        <div class="tab-content active" id="about">
+            <h2>About</h2>
+            <p>MTech, PhD (CSE), VIT University, Bhopal</p>
+            <p>16 years of teaching experience in AI, ML, and Computer Vision.</p>
+        </div>
+
+        <div class="tab-content" id="research">
+            <h2>Research Domain</h2>
+            <ul>
+                <li>Machine Learning, Deep Learning, Computer Vision</li>
+                <li>Quantum Neural Network, Soft Computing</li>
+            </ul>
+        </div>
+
+        <div class="tab-content" id="projects">
+            <h2>Projects Completed</h2>
+            <ul>
+                <li>Fog removal using GAN model</li>
+                <li>Handwriting recognition using self-attention</li>
+                <li>Restaurant reviews analysis using Deep Learning</li>
+                <li>Object measurement using computer vision tools</li>
+            </ul>
+        </div>
+
+        <div class="tab-content" id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Python, C, C++</li>
+                <li>TensorFlow, Power BI, RAG, LLM</li>
+                <li>Anaconda, Jupyter, Oracle Database</li>
+            </ul>
+        </div>
+
+        <div class="tab-content" id="roles">
+            <h2>Academic Roles & Responsibilities</h2>
+            <ul>
+                <li>Coordinator of Center of Excellence</li>
+                <li>Organizer of National Level AI Conferences</li>
+                <li>Reviewer in International Conferences</li>
+                <li>Mentor for NPTEL and IUCEEE courses</li>
+            </ul>
+        </div>
+
+        <div class="tab-content" id="publications">
+            <h2>Publications</h2>
+            <p>3 SCI journals, 18 Scopus Conference Papers, 2 Book Chapters</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
